@@ -1,0 +1,31 @@
+.title {
+    display: flex;
+    justify-content: center;
+    font-family: Impact, fantasy;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.divDetails {
+    border: 1px solid  black;
+    box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.5);
+}
+.detailsPar {
+    font-family: verdana, sans-serif;
+    font-size: 16px;
+    padding:0 0 0 15px;
+}
+.divComments  {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin: 25px 0 0 0;
+}
+.comInfo {
+    flex-grow: 0; /* Запобігає гнучкому контейнеру займати всю доступну ширину */
+    width: 20%;
+    box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.5);
+    font-family: verdana, sans-serif;
+    font-size: 16px;
+    padding: 10px 10px 10px 15px;
+}
+

@@ -1,0 +1,34 @@
+.title {
+    display: flex;
+    justify-content: center;
+    font-family: Impact, fantasy;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.usersContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin: 25px 0 0 0;
+}
+.userBlock {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 48%;
+    height: 15%;
+    /*border: 1px solid black;*/
+    box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.5);
+}
+.userInfo {
+    font-family: Impact, fantasy;
+    font-size: 25px;
+}
+.btn {
+    width: 25%;
+    height: 30px;
+    margin-bottom: 25px;
+    font-family: Marker Felt, fantasy;
+    font-size: 15px;
+}

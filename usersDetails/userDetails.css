@@ -1,0 +1,42 @@
+.title {
+    display: flex;
+    justify-content: center;
+    font-family: Impact, fantasy;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.userInfoBlock {
+    border: 1px solid  black;
+    box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.5);
+}
+.userPar {
+    font-family: verdana, sans-serif;
+    font-size: 16px;
+    padding:0 0 0 15px;
+}
+.buttonBlock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn {
+    margin: 100px 0 0 0;
+    width: 90%;
+    height: 60px;
+    font-family: Marker Felt, fantasy;
+    font-size: 16px;
+}
+.titleBlock {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin: 25px 0 0 0;
+}
+.titlePosts {
+    width: 15%;
+    /*border: 1px solid black;*/
+    box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.5);
+    font-family: verdana, sans-serif;
+    font-size: 16px;
+    padding:10px 10px 10px 15px;
+}
